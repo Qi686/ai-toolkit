@@ -69,6 +69,10 @@ git pull 拉取远程更新
 - 演示文件：[variables_demo.py](variables_demo.py)
 - 涵盖内容：变量赋值、字符串拼接、整数/浮点数、f-string。
 
+### Python 基础 - 列表简介
+- 演示文件：[list_demo.py](list_demo.py)
+- 涵盖内容：创建列表、索引访问、修改元素、添加/删除元素、简单循环。
+
 📄 开源协议
 
 本项目基于 MIT 协议开源。你可以自由使用、修改和分发，但请保留版权声明。
