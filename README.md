@@ -73,6 +73,13 @@ git pull 拉取远程更新
 - 演示文件：[list_demo.py](list_demo.py)
 - 涵盖内容：创建列表、索引访问、修改元素、添加/删除元素、简单循环。
 
+### Python 基础 - 操作列表
+- 演示文件：[list_operations_demo.py](list_operations_demo.py)
+- 涵盖内容：
+  - 遍历（for循环、enumerate）
+  - 切片（获取子集、复制列表）
+  - 列表解析（条件过滤、数值运算）
+
 📄 开源协议
 
 本项目基于 MIT 协议开源。你可以自由使用、修改和分发，但请保留版权声明。
