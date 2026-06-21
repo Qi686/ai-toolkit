@@ -97,6 +97,22 @@ git pull 拉取远程更新
   - 遍历（`items()`、`keys()`、`values()`）
   - 字典嵌套（列表嵌套字典、字典嵌套列表）
 
+## 📚 本周学习汇总 (Week 1 - Python 基础)
+
+| 章节 | 核心内容 | 对应 Demo |
+| :--- | :--- | :--- |
+| 第1-2章 | 变量、简单数据类型、字符串拼接 | [variables_demo.py](demos/variables_demo.py) |
+| 第3章 | 列表创建、访问、修改元素 | [list_demo.py](demos/list_demo.py) |
+| 第4章 | 遍历、切片、列表解析 | [list_operations_demo.py](demos/list_operations_demo.py) |
+| 第5章 | 条件测试、if-elif-else | [if_demo.py](demos/if_demo.py) |
+| 第6章 | 字典增删改查、遍历、嵌套 | [dict_demo.py](demos/dict_demo.py) |
+| 第7章 | 用户输入 (`input`)、`while` 循环、`break`/`continue` | [chapter7_user_input.py](demos/chapter7_user_input.py) |
+
+### 🛠️ 本周优化亮点
+- **结构优化**：所有功能模块化封装为函数，遵循单一职责原则。
+- **标准化入口**：引入 `if __name__ == "__main__":`，增强脚本可读性和可导入性。
+- **项目整理**：统一将脚本迁移至 `demos/` 目录，根目录保持清爽。
+
 📄 开源协议
 
 本项目基于 MIT 协议开源。你可以自由使用、修改和分发，但请保留版权声明。
