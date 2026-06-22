@@ -113,6 +113,16 @@ git pull 拉取远程更新
 - **标准化入口**：引入 `if __name__ == "__main__":`，增强脚本可读性和可导入性。
 - **项目整理**：统一将脚本迁移至 `demos/` 目录，根目录保持清爽。
 
+### 第8章 - 函数
+- 演示文件：[chapter8_functions.py](demos/chapter8_functions.py)
+- 涵盖内容：
+  - 定义函数 (`def`)
+  - 位置实参、关键字实参
+  - 默认值
+  - 返回值（字符串、字典）
+  - 函数与 `while` 循环结合
+| 第8章 | 函数（定义、传递实参、返回值） | [chapter8_functions.py](demos/chapter8_functions.py) |
+
 📄 开源协议
 
 本项目基于 MIT 协议开源。你可以自由使用、修改和分发，但请保留版权声明。
