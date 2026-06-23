@@ -107,6 +107,8 @@ git pull 拉取远程更新
 | 第5章 | 条件测试、if-elif-else | [if_demo.py](demos/if_demo.py) |
 | 第6章 | 字典增删改查、遍历、嵌套 | [dict_demo.py](demos/dict_demo.py) |
 | 第7章 | 用户输入 (`input`)、`while` 循环、`break`/`continue` | [chapter7_user_input.py](demos/chapter7_user_input.py) |
+| 第8章 | 函数（定义、传递实参、返回值） | [chapter8_functions.py](demos/chapter8_functions.py) |
+| 第9章（上） | 类（创建类、属性、方法） | [chapter9_restaurant.py](demos/chapter9_restaurant.py) |
 
 ### 🛠️ 本周优化亮点
 - **结构优化**：所有功能模块化封装为函数，遵循单一职责原则。
@@ -121,7 +123,16 @@ git pull 拉取远程更新
   - 默认值
   - 返回值（字符串、字典）
   - 函数与 `while` 循环结合
-| 第8章 | 函数（定义、传递实参、返回值） | [chapter8_functions.py](demos/chapter8_functions.py) |
+
+### 第9章（上）- 类
+- 演示文件：[chapter9_restaurant.py](demos/chapter9_restaurant.py)
+- 涵盖内容：
+  - 创建类（`class Restaurant`）
+  - `__init__()` 初始化属性
+  - 定义方法（`describe_restaurant()`、`open_restaurant()`）
+  - 创建实例并调用方法
+  - 修改属性（直接修改、通过方法修改）
+  - 数据验证（增加人数时判断正负）
 
 📄 开源协议
 
