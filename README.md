@@ -109,6 +109,7 @@ git pull 拉取远程更新
 | 第7章 | 用户输入 (`input`)、`while` 循环、`break`/`continue` | [chapter7_user_input.py](demos/chapter7_user_input.py) |
 | 第8章 | 函数（定义、传递实参、返回值） | [chapter8_functions.py](demos/chapter8_functions.py) |
 | 第9章（上） | 类（创建类、属性、方法） | [chapter9_restaurant.py](demos/chapter9_restaurant.py) |
+| 第9章（下） | 继承、导入类、覆盖方法 | [chapter9_inheritance.py](demos/chapter9_inheritance.py) |
 
 ### 🛠️ 本周优化亮点
 - **结构优化**：所有功能模块化封装为函数，遵循单一职责原则。
@@ -133,6 +134,15 @@ git pull 拉取远程更新
   - 创建实例并调用方法
   - 修改属性（直接修改、通过方法修改）
   - 数据验证（增加人数时判断正负）
+
+### 第9章（下）- 继承与导入类
+- 演示文件：[chapter9_inheritance.py](demos/chapter9_inheritance.py)
+- 涵盖内容：
+  - **继承**：`class ChildClass(ParentClass)`
+  - **`super().__init__()`**：调用父类初始化方法
+  - **新增属性**：子类特有的属性（如 `flavors`）
+  - **覆盖方法**：子类重新定义父类方法，实现不同行为
+  - **导入类**：实践中使用 `from module import Class` 组织代码
 
 📄 开源协议
 
